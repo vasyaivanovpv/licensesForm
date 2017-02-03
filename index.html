@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Test 2</title>
+  <link rel="stylesheet" href="main.css">
+  <script src="common.js"></script>
+</head>
+<body>
+    <div class="main">
+      <div class="selectedLicense" id="selectedLicense">
+        <div class="license" data-name="1">
+          <span class="idLicense">License Plan #1</span><span class="priceLicense">per license</span>
+        </div>
+        <div class="license" data-name="2">
+          <span class="idLicense">License Plan #2</span><span class="priceLicense">per license</span>
+        </div>
+        <div class="license selected" data-name="3">
+          <span class="idLicense">License Plan #3</span><span class="priceLicense">per license</span>
+        </div>
+      </div>
+      <div class="numLicenses">
+        <span>Number of licenses:</span>
+        <select name="amountLicenses" id="amountLicenses"></select>
+      </div>
+      <div class="result" id="result">
+        <span class="total" id="total">Total:</span>
+        <span class="sum" id="sum"></span>
+        <div><a href="#" id="buy">Buy now</a></div>
+        <span class="selectedPlan" id="selectedPlan">Selected plan:</span>
+      </div>
+    </div>
+</body>
+</html>

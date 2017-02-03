@@ -1,0 +1,190 @@
+@import "reset.css";
+
+@font-face {
+  font-family: Bebas;
+  src: url(/font/BEBAS___.TTF);
+}
+
+.main {
+  margin: 20px auto;
+  width: 590px;
+  height: 600px;
+  background-color: #f8f8f8;
+  border: 10px solid #ebebeb;
+  padding: 10px 20px;
+}
+.license {  
+  width: 530px;
+  height: 70px;
+  padding: 10px 15px 10px 85px;
+  border: 1px solid rgba(0,0,0,0);
+  position: relative;
+}
+.license.selected {
+  background-color: #ebf4f7;
+  border: 1px solid #b8d7e2;
+}
+.license.selected .idLicense::before {
+  border-color: #34648e;
+}
+.license.selected .idLicense::after {
+  content: '';
+  position: absolute;  
+  border: 8px solid #0294bf;
+  border-radius: 50%;
+  top: 27px;
+  left: 37px;  
+}
+.license:hover .idLicense::before {
+  border-color: #34648e;
+}
+.license:hover {
+  background-color: #ebf4f7;
+  border: 1px solid #b8d7e2;
+}
+.license span {
+  line-height: 50px;    
+}
+.idLicense {
+  font-family: Bebas;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  color: #787878;
+  line-height: 50px;  
+}
+.license .idLicense::before {
+  content: '';
+  width: 28px;
+  height: 28px;
+  border: 6px solid #dadada;
+  border-radius: 50%;
+  position: absolute;
+  left: 25px;  
+  top: 15px;
+}
+.priceLicense {
+  color: #97999a;
+  float: right;
+  font-size: 1.2rem;
+}
+
+.numLicenses {
+  margin-top: 10px;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  border-color: #cccccc;
+  width: 100%;
+  height: 92px;
+  color: #424242;
+  font-size: 1.1rem;
+  text-align: center;
+  font-weight: bold;
+  line-height: 92px;  
+}
+.numLicenses select {
+  width: 60px;
+  height: 30px;
+  margin-left: 10px;
+  border: 2px solid #a1c3fa;
+  border-radius: 2px;
+}
+
+.result {
+  text-align: center;
+  padding-top: 40px;
+}
+.total {
+  font-family: Bebas;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  color: #787878;  
+  margin-right: 5px;
+}
+#buy {
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  width: 190px;
+  height: 45px;
+  background-color: #33a845;
+  border: 1px solid #33a845;
+  border-radius: 25px;
+  text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+  line-height: 45px;
+  font-size: 0.9rem;  
+  cursor: pointer;
+}
+#buy:hover {
+  background-color: #cc57ba;
+  border-color: #cc57ba;
+}
+.selectedPlan {
+  color: #68a6bd;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.sum {
+  font-family: Bebas;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  color: #3388a8;  
+}
+sup {
+  vertical-align: top;
+  font-size: small;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
